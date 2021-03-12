@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+.box{
+width:600px;
+height:300px;
+position:relative;
+margin:100px300px ;
+background-color:#9603a6;
+                     }
+button{
+background-color:black;
+color: white;border:0px ;
+border-radius:5px;
+margin:60px60px;
+height:20px;
+                    }
+p{
+margin-left:30px;
+color:white;
+                 }
+
+</style>
+</head>
+<body>
+<div class="box">
+<p id="display"></p>
+<button onClick="f()">Click here to show today's date</button><h3></h3>
+</div>
+</body>
+
+<script>
+
+function f(){
+//alert("Button clicked");
+document.getElementById("display").innerHTML=Date();
+               }
+</script>
+</html>
